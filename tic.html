@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  <script src="tictactoe.js"></script>
+
+  
+  <header>
+  <h1>TIC TAC TOE</h1>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  
+  <table>
+  <tr>
+  <td><input type="button" id="1" onclick="xoo(1)" value=""/></td>
+  <td><input type="button" id="2" onclick="xoo(2)" value=""/></td>
+  <td><input type="button" id="3" onclick="xoo(3)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="4" onclick="xoo(4)" value=""/></td>
+  <td><input type="button" id="5" onclick="xoo(5)" value=""/></td>
+  <td><input type="button" id="6" onclick="xoo(6)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="7" onclick="xoo(7)" value=""/></td>
+  <td><input type="button" id="8" onclick="xoo(8)" value=""/></td>
+  <td><input type="button" id="9" onclick="xoo(9)" value=""/></td>
+  </tr>
+  </table>
+  
+  <button onclick="zuruecksetzen()">Reset</button>
+  
+  <section align="center" id="popup">
+  <p id="text">text</p>
+  <button id="popupbutton" onclick="zuruecksetzen()">Ok</button>
+  </section>
+  
+  <section id="overlay"></section>
+  
+  </body>
+</html>
